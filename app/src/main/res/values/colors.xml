@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="starsucksgreen">#00704A</color>
+    <color name="toffee">#D2691E</color>
+    <color name= "cream">#FFF8DC</color>
+    <color name="light_brown">#CD853F</color>
+    <color name="brown">#A52A2A</color>
 </resources>

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">starSucksApp</string>
     <string name="order_now">Order Now</string>
+    <string name ="you_ordered">You ordered</string>
+    <string name= "customer_name">You are ?</string>
+    <string name="customer_number">Number ?</string>
 </resources>

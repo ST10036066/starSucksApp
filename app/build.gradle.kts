@@ -7,6 +7,7 @@ android {
     namespace = "com.example.starsucksapp"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.starsucksapp"
         minSdk = 26
@@ -24,6 +25,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            viewBinding.enable = true
         }
     }
     compileOptions {
