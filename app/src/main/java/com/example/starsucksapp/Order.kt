@@ -1,4 +1,7 @@
+package com.example.starsucksapp
+
 class Order {
+
     lateinit var productName: String
     lateinit var customerName: String
     lateinit var customerCell: String
@@ -34,3 +37,5 @@ class Order {
         orderDate = oDate
     }
 }
+
+
