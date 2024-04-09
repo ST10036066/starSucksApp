@@ -5,4 +5,5 @@
     <string name= "customer_name">You are ?</string>
     <string name="customer_number">Number ?</string>
     <string name="todo">TODO</string>
+    <string name ="description">Description</string>
 </resources>
