@@ -44,8 +44,8 @@
             <EditText
                 android:id="@+id/et_customerName"
                 android:layout_width="148dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
+                android:layout_height="50dp"
+                android:ems="20"
                 android:inputType= "textPersonName"
                 android:hint="@string/customer_name"
                 android:layout_gravity="center_horizontal"/>
@@ -54,17 +54,19 @@
             <EditText
                 android:id="@+id/et_customerCell"
                 android:layout_width="148dp"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_gravity="center_horizontal"
                 android:ems="10"
-                android:hint="@string/customer_number"/>
+                android:hint="@string/customer_number"
+                android:autofillHints="cellphone" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingActionButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clickable="true"
-                app:srcCompat="@android:drawable/ic_popup_reminder" />
+                app:srcCompat="@android:drawable/ic_popup_reminder"
+                android:contentDescription="@string/todo" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

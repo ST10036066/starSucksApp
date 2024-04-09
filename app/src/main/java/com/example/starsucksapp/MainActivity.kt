@@ -12,7 +12,7 @@ import com.example.starsucksapp.databinding.ActivityMainBinding
 import android.content.Intent
 
 class MainActivity : AppCompatActivity(), android.view.View.OnClickListener {
-  var  order= Order();
+  public var  order= Order();
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
