@@ -16,13 +16,13 @@ class Order {
         productName = pName
     }
 
-    // Secondary constructor with two parameters
+    // Secondary constructor with 2Two parameters
     constructor(pName: String, cName: String) : this() {
         productName = pName
         customerName = cName
     }
 
-    // Secondary constructor with three parameters
+    // Secondary constructor with 3Three parameters
     constructor(pName: String, cName: String, cCell: String) : this() {
         productName = pName
         customerName = cName
