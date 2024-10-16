@@ -1,7 +1,6 @@
 package com.example.starsucksapp
 
 class Order {
-
     lateinit var productName: String
     lateinit var customerName: String
     lateinit var customerCell: String
@@ -9,7 +8,7 @@ class Order {
 
     //secondary constructor
     // Primary constructor
-    //adding a new line of code for commit
+    
     constructor()
 
     // Secondary constructor with one parameter
@@ -17,13 +16,13 @@ class Order {
         productName = pName
     }
 
-    // Secondary constructor with two parameters
+    // Secondary constructor with 2 parameters
     constructor(pName: String, cName: String) : this() {
         productName = pName
         customerName = cName
     }
 
-    // Secondary constructor with three parameters
+    // Secondary constructor with 3 parameters
     constructor(pName: String, cName: String, cCell: String) : this() {
         productName = pName
         customerName = cName
